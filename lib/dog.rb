@@ -20,7 +20,7 @@ class Dog
  
   def breed 
     if @breed == nil
-    return "Mutt"
+    return 
    end
  end
 
