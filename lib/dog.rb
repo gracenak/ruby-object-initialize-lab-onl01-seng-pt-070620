@@ -21,7 +21,6 @@ class Dog
     if @breed == []
       return "Mutt"
   end
-  puts 
 end
  
 
