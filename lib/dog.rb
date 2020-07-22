@@ -2,7 +2,7 @@ class Dog
 
   def initialize(name, breed)
     @name = name
-    @breed = breed
+    @breed = "Mutt"
   end
  
   def name=name
@@ -19,10 +19,9 @@ class Dog
   end
  
   def breed 
-    if @breed == nil
-    puts #{"Mutt"}
-   end
- end
+    @breed
+  end
+ 
 
  
 end 
