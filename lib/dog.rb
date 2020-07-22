@@ -8,7 +8,7 @@ class Dog
  
  def breed 
    if @breed == nil
-     puts @breed["Mutt"]
+     return @breed["Mutt"]
    end
  end
  
