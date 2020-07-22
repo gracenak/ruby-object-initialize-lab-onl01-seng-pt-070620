@@ -19,7 +19,7 @@ class Dog
   end
  
   def breed 
-    if @breed == {}
+    if @breed == []
       return "Mutt"
   end
 end
