@@ -1,6 +1,6 @@
 class Dog
 
-  def initialize(name, breed) 
+  def initialize(name, breed= "Mutt") 
     @name = name
     @breed = breed
   end
@@ -13,13 +13,12 @@ class Dog
     @name
   end
  
-  def breed= (breed)
+  def breed= (breed= "Mutt")
     @breed = breed
   end
  
-  def breed(breed)
-    if @breed == []
-      return "Mutt"
+  def breed
+    @breed
   end
 end
  
