@@ -17,7 +17,7 @@ class Dog
     @breed = breed
   end
  
-  def breed 
+  def breed(breed)
     if @breed == []
       return "Mutt"
   end
